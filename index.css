@@ -1,0 +1,151 @@
+body {
+  background-image: url("https://wallpapertag.com/wallpaper/full/a/8/a/209489-vintage-floral-wallpaper-1920x1200-htc.jpg");
+  background-repeat: no-repeat;
+}
+.giantcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 10px black;
+  flex-wrap: wrap;
+}
+.MARGOTcontainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+border:2px solid #26a69a;
+background-color: white;
+padding: 15px;
+width: 47%;
+margin: 15px;
+margin-top: 40px;
+height: 550px;
+}
+.MARGOTcontainer.div {
+  flex-grow: 1;
+}
+
+.MARGOTcontainer #instructions {
+font-size: 20px;
+padding-bottom: 30px;
+color: #26a69a;
+}
+.margotTitle {
+display: flex;
+justify-content: space-between;
+background: #DB7093;
+padding: 10px;
+}
+
+.margotTitle div {
+  color: white;
+text-align: left;
+font-size: 30px;
+font-family: 'Pathway Gothic One', sans-serif;
+}
+.margotTitle a {
+color: white;
+font-size: 30px;
+font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.container3 {
+  background-color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border:2px solid #26a69a;
+  padding: 15px;
+  width: 47%;
+  margin: 15px;
+  margin-top: 40px;
+  height: 550px;
+}
+.container3.div {
+  flex-grow: 1;
+}
+
+.funky {
+  display: flex;
+  background-image: url("https://i.pinimg.com/originals/a5/46/39/a54639d8cbf6bcf98039b5977a27596e.jpg");
+  background-size: cover;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  text-align: right;
+  justify-content: flex-end;
+  color: black;
+}
+
+.funky .text {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.funky #namesTogether {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  font-size: 50px;
+}
+.funky #and {
+  font-size: 50px;
+}
+
+.fresh {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url("https://cdn.greenvelope.com/GreenvelopeImages/styles/thumbnails/4449~1040.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family:'Petit Formal Script', cursive;
+  font-size: 20px;
+}
+.fresh .invitation {
+  background-color: white;
+  color: black;
+}
+.formal {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #fffaf0;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 30px;
+  color: black;
+}
+
+.formal #namesTogether {
+  font-size: 50px;
+}
+
+
+@media all and (max-width:1000px) {
+  .flex-nav ul {
+    flex-wrap: wrap;
+  }
+.flex-nav ul li {
+  width: 50%;
+}
+
+.flex-nav ul .social {
+  width: 25%;
+}
+
+}
+@media all and (max-width:500px) {
+    .flex-nav ul {
+    flex-wrap: wrap;
+  }
+.flex-nav ul li {
+  width: 100%;
+}
+
+.flex-nav ul .social {
+  width: 25%;
+}
+  
+
+}

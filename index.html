@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+   <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pathway+Gothic+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script|Pinyon+Script" rel="stylesheet">
+  <title>Margot's Wedding Invitation Designer</title>
+</head>
+<body>
+<div class="margotTitle">
+  <div class="margotSiteName">wedding invitation design by margot</div>
+  <div class='buttons'>
+   <a class="waves-effect waves-teal btn-flat" id='funkyButton'>Funky</a>
+    <a class="waves-effect waves-teal btn-flat" id='freshButton'>Fresh</a>
+    <a class="waves-effect waves-teal btn-flat" id='formalButton'>Formal</a>
+    </div>
+</div> 
+   
+    <div class="giantcontainer">
+      <div class="MARGOTcontainer">
+        <div id='instructions'>Enter your text here:</div>
+        <div class="input-field col s6">
+          <input placeholder="Hermione Granger" id="name_one" type="text">
+          <label for="name_one">Name 1</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="Ron Weasley" id="name_two" type="text">
+          <label for="name_two">Name 2</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="January 5, 2020 at 6:30 pm" id="date" type="text">
+          <label for="date">Date & Time</label>
+        </div>
+        <div class="input-field col s6">
+          <input placeholder="The Plaza Hotel" id="location_name" type="text">
+          <label for="location_name">Location Name</label>
+        </div>
+         <div class="input-field col s6">
+          <input placeholder="768 5th Ave, New York, NY 10019" id="location_address" type="text">
+          <label for="location_address">Location Address</label>
+        </div>
+        </div>
+          <div class="container3">
+            <div class='invitation'>
+              <div class='text'>The pleasure of your company is requested at the marriage of</div>
+             <div id ='namesTogether'>
+             <div id='inviteName1'></div>
+             <div class='text' id='and'>&nbsp; & &nbsp;</div>
+             <div id='inviteName2'></div>
+             </div>
+             <div id='inviteDate'></div>
+              <div id='inviteLocationName'></div>
+              <div id='inviteLocationAddress'></div>
+              <div class='text'>Dinner & merriment to follow</div>
+            </div>
+          </div>
+          </div>
+    <script defer src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
